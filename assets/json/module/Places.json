@@ -1,0 +1,72 @@
+{
+    "required": ["Nome", "Nota"],
+    "hidden": [],
+    "translations": {
+        "valor": "$",
+        "visitado": "✔"
+    },
+    "currency": {
+        "R$": {
+            "-": "Gratuito",
+            "$": "R$1 - R$50",
+            "$$": "R$50 - R$100",
+            "$$$": "Mais de R$100!",
+            "default": "Valor Desconhecido"
+        },
+        "$": {
+            "-": "Gratuito",
+            "$": "$1 - $25",
+            "$$": "$26 - $50",
+            "$$$": "$51 - $99",
+            "$$$$": "Mais de $100!",
+            "default": "Valor Desconhecido"
+        }
+    },
+    "scores": {
+        "knownKeys": ["titulo", "title", "descricao", "veg", "duo", "valor", "visitado", "nota", "hyperlink", "emoji", "regiao", "weed", "video", "novo", "plan."],
+        "possibleValues": ["!", "1", "2", "3", "4"]
+    },
+    "places": [{
+        "title": "Restaurantes",
+        "code": "restaurants",
+        "subtitle": "",
+        "icon": "bx bx-dish",
+        "description": "Lugares com refeições completas, para almoçar e jantar. Alguns são apenas noturnos. Locais Físicos."
+    }, {
+        "title": "Lanches",
+        "code": "snacks",
+        "subtitle": "",
+        "icon": "bx bx-cookie",
+        "description": "Lugares com refeições leves para café da manhã, brunch e mini refeições. Locais Físicos e Delivery."
+    }, {
+        "title": "Saídas",
+        "code": "nightlife",
+        "subtitle": "",
+        "icon": "bx bxs-drink",
+        "description": "Bares, Pubs, Baladas ou qualquer outra programação noturna com foco em bebidas ou entretenimento."
+    }, {
+        "title": "Turismo",
+        "code": "tourism",
+        "subtitle": "",
+        "icon": "bx bx-globe",
+        "description": "Pontos Turísticos diversos: Museus, Praças, Exposições, Parques, Mirantes, Peças de Teatro, entre outros."
+    }, {
+        "title": "Lojas",
+        "code": "shopping",
+        "subtitle": "",
+        "icon": "bx bx-shopping-bag",
+        "description": "Shoppings, Supermercados, Outlets, lojas de roupas, calçados, eletrônicos, entre outros. Compras no geral"
+    }, {
+        "title": "Lineup",
+        "code": "lineup",
+        "subtitle": "A porcentagem % indica o quanto eu (Bibs) quero ver cada show",
+        "icon": "bx bx-music",
+        "description": "Lineup do festival. Inclui horários, palcos e artistas, notas e um link para o Spotify do artista."
+    }, {
+        "title": "Mapa",
+        "code": "map",
+        "subtitle": "",
+        "icon": "bx bx-map-alt",
+        "description": "Mapa interativo no Google Maps com vários pontos turísticos da cidade: Restaurantes, Lanches, Saídas e Turismo."
+    }]
+}

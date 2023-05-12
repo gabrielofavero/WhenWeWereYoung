@@ -1,0 +1,97 @@
+{
+    "emoji": {
+        "default": "🕒",
+        "voo": "✈️",
+        "ônibus": "🚌",
+        "carro": "🚘",
+        "metrô": "🚇",
+        "hospedagem": "🏨",
+        "casa": "🏠",
+        "alimentação": "🍽️",
+        "pizza": "🍕",
+        "burger": "🍔",
+        "brunch": "🥐",
+        "taco": "🌮",
+        "sanduiche": "🥪",
+        "lamen": "🍜",
+        "massa": "🍝",
+        "sorvete": "🍦",
+        "donut": "🍩",
+        "evento": "🎟️",
+        "turismo": "🗺️",
+        "museu": "🏛️",
+        "parque": "🏞️",
+        "cinema": "🎥",
+        "teatro": "🎭",
+        "praia": "🏖️",
+        "compras": "🛍️",
+        "supermercado": "🛒",
+        "saída noturna": "🌃",
+        "saídas": "🍹",
+        "japan": "🉐",
+        "transporte público": "🚌",
+        "transporte privado": "🚗",
+        "caminhada": "🏃",
+        "ida/volta": "🚀",
+        "trabalho": "💼",
+        "show": "🎤",
+        "showLivre": "🎶",
+        "aula": "✏️",
+        "italiano": "🇮🇹"
+    },
+    "text": {
+        "ida/volta": {
+            "voo": ["voo", "avião", "latam", "delta", "azul", "gol", "american airlines", "copa", "air"],
+            "ônibus": ["ônibus", "bus", "onibus", "transfer"],
+            "carro": ["carro"]
+        },
+        "hospedagem": {
+            "hospedagem": ["hotel", "resort", "hostel"],
+            "casa": ["casa", "apartamento", "airbnb"],
+            "aula": ["aula", "faculdade", "estudo", "estudos"],
+            "italiano": ["italiano"]
+        },
+        "alimentação": {
+            "pizza": ["pizza"],
+            "burger": ["hamburguer", "burger", "burguer", "cow", "buns"],
+            "sorvete": ["sorvete", "sorvetinho", "milkshake"],
+            "brunch": ["lanche", "café da manhã", "brunch"],
+            "massa": ["massa", "macarrão", "pasta", "osteria", "trattoria"],
+            "lamen": ["lamen", "tan tan"],
+            "sanduiche": ["sanduiche", "sandwich", "melt"],
+            "taco": ["taco", "tacos", "mexican"],
+            "donut": ["donut", "donuts"]
+        },
+        "transporte público": {
+            "metrô": ["metrô", "metro", "trem"],
+            "ônibus": ["ônibus", "bus", "onibus"]
+        },
+        "transporte privado": {
+            "ônibus": ["ônibus", "bus", "onibus", "transfer"]
+        },
+        "turismo": {
+            "parque": ["parque", "praça", "parquinho"],
+            "museu": ["museu", "memorial", "monumento", "exposição", "exposições"],
+            "praia": ["praia", "mar", "prancha"],
+            "evento": ["evento", "agendar", "agendado", "reserva", "reservado", "ingresso"],
+            "show": ["show", "festival", "lollapalooza", "mita", "rock in rio", "palco", "gp week"]
+        },
+        "ingresso/show": {
+            "show": ["show", "festival", "lollapalooza", "mita", "rock in rio", "palco", "gp week", "when we were young"],
+            "caminhada": ["deslocamento", "caminhada", "correr"],
+            "showLivre": ["livre"]
+        },
+        "saídas": {
+            "saída noturna": ["18:", "19:", "20:", "21:", "22:", "23:"],
+            "japan": ["tokyo"]
+        },
+        "compras": {
+            "supermercado": ["supermercado", "mercado", "suprimentos", "alimentos"],
+            "compras": ["compras", "comprinhas"]
+        },
+        "-": {
+            "caminhada": ["a pé", "caminhada", "caminhar", "correr", "correndo", "andar", "deslocamento"],
+            "hospedagem": ["hospedagem", "hotel", "airbnb"]
+        }
+    }
+}

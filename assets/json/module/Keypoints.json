@@ -1,0 +1,22 @@
+[
+    {
+        "titulo": "Gasto Total",
+        "icone": "bx bx-money",
+        "text" : ""
+    },
+    {
+        "titulo": "Ingresso",
+        "icone": "bx bxs-music",
+        "text" : ""
+    },
+    {
+        "titulo": "Hospedagem",
+        "icone": "bx bxs-hotel",
+        "text" : ""
+    },
+    {
+        "titulo": "Dia-a-Dia (Individual)",
+        "icone": "bx bxs-sun",
+        "text" : ""
+    }
+]

@@ -1,0 +1,20 @@
+{
+    "filters":{
+        "filter-lineup":"Lineup",
+        "filter-mapa":"Mapa"
+    },
+    "photos":[
+        {
+            "src":"assets/img/gallery/01.jpg",
+            "title":"When We Were Young",
+            "description":"Lineup",
+            "filter":"filter-lineup"
+        },
+        {
+            "src":"assets/img/gallery/02.jpg",
+            "title":"When We Were Young",
+            "description":"Mapa (2022)",
+            "filter":"filter-mapa"
+        }
+    ]
+}
