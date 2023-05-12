@@ -59,7 +59,7 @@
     }, {
         "title": "Lineup",
         "code": "lineup",
-        "subtitle": "A porcentagem % indica o quanto eu (Bibs) quero ver cada show",
+        "subtitle": "Notas com base no gosto do Bibs",
         "icon": "bx bx-music",
         "description": "Lineup do festival. Inclui horários, palcos e artistas, notas e um link para o Spotify do artista."
     }, {
