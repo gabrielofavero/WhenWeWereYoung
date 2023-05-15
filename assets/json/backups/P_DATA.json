@@ -14,12 +14,14 @@
                 "Pizza Rock",
                 "VegeNation",
                 "Giordano's",
+                "Soulbelly BBQ",
                 "California Pizza Kitchen",
                 "Gordon Ramsay Pub & Grill",
-                "Soulbelly BBQ",
                 "Emeril's New Orleans Fish House",
+                "Hwaro",
                 "Bubba Gumb",
-                "Heart Attack Grill"
+                "Heart Attack Grill",
+                "NoodleHead"
             ],
             [
                 "",
@@ -32,12 +34,14 @@
                 "🍕",
                 "🥬",
                 "🍕",
+                "🥩",
                 "🍕",
                 "🍺🍗",
-                "🥩",
                 "🍤",
+                "🍢",
                 "🍤",
-                "🍔"
+                "🍔",
+                "🍜"
             ],
             [
                 "",
@@ -50,12 +54,14 @@
                 "Centro da Cidade",
                 "Centro da Cidade",
                 "Strip (Centro)",
-                "Strip (Centro)",
-                "Strip (Centro)",
                 "Centro da Cidade",
                 "Strip (Centro)",
                 "Strip (Centro)",
-                "Fremont Street"
+                "Strip (Centro)",
+                "Chinatown",
+                "Strip (Centro)",
+                "Fremont Street",
+                "Chinatown"
             ],
             [
                 "",
@@ -68,12 +74,14 @@
                 "Pizzaria melhor avaliada do TripAdvisor",
                 "Vegetariano melhor avaliado do TripAdvisor",
                 "Deep Dish Pizza de Chicago",
+                "Churrasco americano",
                 "Pizzaria californiana",
                 "Caesars Palace",
-                "Churrasco americano",
                 "Restaurante de frutos do mar",
+                "Rodízio de Barbecue coreano por 29 dólares",
                 "Restaurante de frutos do mar",
-                "Hamburgueria temática. Bem Calórica"
+                "Hamburgueria temática. Bem Calórica",
+                "Comida asiática"
             ],
             [
                 "",
@@ -86,10 +94,12 @@
                 "$",
                 "$$",
                 "$$",
-                "$$",
-                "$$",
                 "$",
+                "$$",
+                "$$",
                 "$$$",
+                "$$",
+                "$$",
                 "$$",
                 "$$"
             ],
@@ -105,8 +115,9 @@
                 "Instagram",
                 "Instagram",
                 "Instagram",
-                "",
                 "Instagram",
+                "",
+                "",
                 "",
                 "Instagram",
                 "Instagram"
@@ -122,16 +133,20 @@
                 "Tiktok",
                 "TikTok",
                 "Tiktok",
-                "",
-                "Tiktok",
                 "Tiktok",
                 "",
-                "Tiktok"
+                "Tiktok",
+                "",
+                "TikTok",
+                "Tiktok",
+                "TikTok",
+                "TikTok"
             ],
             [
                 "",
                 "Novo",
                 "✔",
+                "",
                 "",
                 "",
                 "",
@@ -161,12 +176,14 @@
                 "1",
                 "1",
                 "1",
-                "2",
-                "2",
                 "1",
                 "2",
+                "2",
+                "2",
+                "2",
                 "3",
-                "3"
+                "3",
+                "1"
             ],
             [],
             [
@@ -184,7 +201,11 @@
                 "Dunkin'",
                 "Shake Shack",
                 "Taco Bell",
-                "Tacos el Gordo"
+                "Tacos el Gordo",
+                "Duck Donuts",
+                "Gabi Boutique",
+                "Foot-long Hotdog",
+                "La Salsa Cantina"
             ],
             [
                 "",
@@ -201,6 +222,10 @@
                 "🍩",
                 "🍔",
                 "🌮",
+                "🌮",
+                "🍩",
+                "🍩",
+                "🌭",
                 "🌮"
             ],
             [
@@ -215,6 +240,10 @@
                 "Paradise",
                 "Strip (Centro)",
                 "Paradise",
+                "Strip (Centro)",
+                "Strip (Centro)",
+                "Strip (Centro)",
+                "Strip (Centro)",
                 "Strip (Centro)",
                 "Strip (Centro)",
                 "Strip (Centro)",
@@ -235,12 +264,20 @@
                 "The LINQ Hotel + Experience",
                 "Dentro do New York New York",
                 "Andar 1: Miracle Mile Shop",
-                "Tacos baratos na Strip"
+                "Tacos baratos na Strip",
+                "Donuts diferentes e café da manhã na Strip",
+                "Donuts chiques",
+                "Dentro do Cassino Royale",
+                "Lanche Mexicano no Miracle Miles Shop"
             ],
             [
                 "",
                 "$",
                 "$$",
+                "$",
+                "$",
+                "$",
+                "$",
                 "$",
                 "$",
                 "$",
@@ -273,6 +310,8 @@
                 "",
                 "TikTok",
                 "TikTok",
+                "TikTok",
+                "TikTok",
                 "TikTok"
             ],
             [
@@ -313,53 +352,65 @@
                 "2",
                 "2",
                 "!",
-                "2"
+                "2",
+                "1",
+                "2",
+                "2",
+                "1"
             ],
             [],
             [
                 "Saídas",
                 "Nome",
                 "Best Friend",
-                "Sickies Garage Burgers & Brews",
                 "Park On Fremont",
+                "Sickies Garage Burgers & Brews",
+                "BrewDog",
                 "Eureka! Discover American Craft",
+                "Ocean One",
                 "Rí Rá",
                 "Señor Frog",
                 "SkyBar",
                 "The Golden Tiki Bar Las Vegas",
                 "Hooters",
+                "Minus 5 Ice Bar",
                 "Nine Fine Irishmen",
                 "Tacos & Beer",
-                "BrewDog"
+                "1923 Bar"
             ],
             [
                 "",
                 "Emoji",
                 "🥢",
-                "🍔",
                 "🍺🍹",
+                "🍔",
                 "🍺",
+                "🍺",
+                "🍹",
                 "🍺",
                 "🍺🌮",
                 "🍺🍹",
                 "🍺",
                 "🍺",
+                "🍹",
                 "🍺",
-                "🌮🍺",
-                "🍺"
+                "🌮🍺"
             ],
             [
                 "",
                 "Região",
                 "Strip (Centro)",
-                "Strip (Sul)",
                 "Fremont Street",
+                "Strip (Sul)",
+                "Strip (Centro)",
                 "Centro da Cidade",
+                "Strip (Centro)",
                 "Strip (Sul)",
                 "Strip (Centro)",
                 "Strip (Centro)",
                 "Chinatown",
                 "Paradise",
+                "Strip (Centro)",
                 "Strip (Centro)",
                 "Paradise",
                 "Strip (Centro)"
@@ -368,17 +419,20 @@
                 "",
                 "Descrição",
                 "Asiático diferentão na Strip (Park MGM)",
-                "Hamburgueria famosa",
                 "Gastro Pub na Freemont Street",
+                "Hamburgueria famosa",
+                "Cervejaria e comidinhas com vista da Strip",
                 "Cervejas e petiscos",
+                "3 Drinks por 12 dólares",
                 "Pub Irlandês na Strip",
                 "Bar e Restaurante Mexicano. $50 Open Bar",
                 "Bar com ótima vista da Strip",
                 "Bar de temática havaiana Disney",
                 "Asinhas e camarão empanado",
+                "Drinks baratos na Strip",
                 "Pub Irlandês no New York New York",
                 "Tacos e Cerveja! :)",
-                "Cervejaria"
+                "Bar com temática da Lei Seca Americana"
             ],
             [
                 "",
@@ -388,10 +442,13 @@
                 "$$",
                 "$$",
                 "$$",
+                "$",
                 "$$",
                 "$$",
                 "$$",
                 "$$",
+                "$$",
+                "$",
                 "$$",
                 "$$",
                 "$$"
@@ -404,14 +461,17 @@
                 "",
                 "Video",
                 "TikTok",
-                "TikTok",
                 "Tiktok",
+                "TikTok",
+                "TikTok",
                 "Youtube",
-                "",
                 "TikTok",
                 "",
                 "TikTok",
                 "",
+                "TikTok",
+                "",
+                "TikTok",
                 "TikTok"
             ],
             [
@@ -420,11 +480,14 @@
                 "✔",
                 "✔",
                 "✔",
+                "",
                 "✔",
+                "",
                 "✔",
                 "",
                 "✔",
                 "✔",
+                "",
                 "",
                 "✔",
                 "✔"
@@ -433,8 +496,11 @@
                 "",
                 "Plan.",
                 "✔",
-                "",
                 "✔",
+                "",
+                "",
+                "",
+                "",
                 "",
                 "",
                 "",
@@ -454,10 +520,13 @@
                 "1",
                 "1",
                 "1",
+                "1",
+                "1",
                 "2",
                 "2",
                 "2",
-                "1"
+                "2",
+                "2"
             ],
             [],
             [
@@ -482,7 +551,8 @@
                 "Venetian",
                 "Stratosphere",
                 "Shark Reef Aquarium",
-                "Calico Ghost Town"
+                "Calico Ghost Town",
+                "Las Vegas Sign"
             ],
             [
                 "",
@@ -506,7 +576,8 @@
                 "🎰🛶",
                 "🎰🗼",
                 "🐟",
-                "🤠👻"
+                "🤠👻",
+                "🏙️"
             ],
             [
                 "",
@@ -530,7 +601,8 @@
                 "Strip (Centro)",
                 "Strip (Norte)",
                 "Strip (Centro)",
-                "California"
+                "California",
+                "Strip (Sul)"
             ],
             [
                 "",
@@ -554,7 +626,8 @@
                 "Gôndola",
                 "Torre Gigante. Longe",
                 "Aquário na Strip",
-                "Cidade Fantasma. Precisa alugar carro"
+                "Cidade Fantasma. Precisa alugar carro",
+                "Famosa placa de Las Vegas"
             ],
             [
                 "",
@@ -578,7 +651,8 @@
                 "-",
                 "$$",
                 "$29",
-                "$22"
+                "$22",
+                "-"
             ],
             [
                 "",
@@ -674,7 +748,8 @@
                 "2",
                 "3",
                 "3",
-                "3"
+                "3",
+                "1"
             ],
             [],
             [

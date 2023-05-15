@@ -4,7 +4,7 @@
     ],
     [],
     [
-        "sábado, 14 de outubro de 2023",
+        "sexta-feira, 13 de outubro de 2023",
         "",
         "",
         "",
@@ -13,7 +13,7 @@
         " ✈️",
         "",
         "Total",
-        "$ 2.078,45"
+        "$ 2.138,45"
     ],
     [
         "Horário",
@@ -48,7 +48,7 @@
         "20:15",
         "-",
         "21:30",
-        "CNF → GRU",
+        "BH → SP",
         "LATAM - XPSQSE",
         "Ida/Volta",
         " $  -   ",
@@ -59,7 +59,7 @@
     [
         "21:30",
         "-",
-        "23:05",
+        "22:50",
         "Aeroporto (GRU)",
         "Conexão",
         "-",
@@ -69,10 +69,10 @@
         " $  50,00 "
     ],
     [
-        "23:05",
+        "22:50",
         "-",
-        "07:00",
-        "GRU → LAX",
+        "07:40",
+        "SP → ATL",
         "LATAM - XPSQSE",
         "Ida/Volta",
         " $  -   ",
@@ -105,7 +105,7 @@
         " R$  1.219,95 "
     ],
     [
-        "domingo, 15 de outubro de 2023"
+        "sábado, 14 de outubro de 2023"
     ],
     [
         "Horário",
@@ -119,10 +119,10 @@
         "Gastos Durante a Viagem"
     ],
     [
-        "07:00",
+        "07:40",
         "-",
-        "07:01",
-        "Aeroporto (LAX)",
+        "09:59",
+        "Aeroporto (ATL)",
         "Conexão",
         "-",
         " $  -   ",
@@ -131,10 +131,10 @@
         " Valor"
     ],
     [
-        "08:39",
+        "09:59",
         "-",
-        "09:51",
-        "LAX → LAS",
+        "11:05",
+        "ATL → LAS",
         "DELTA - XPSQSE",
         "Ida/Volta",
         " $  -   ",
@@ -143,22 +143,22 @@
         " $  -   "
     ],
     [
-        "09:51",
+        "11:05",
         "-",
-        "10:20",
+        "11:30",
         "→",
         "Uber",
         "Transporte Privado",
         " $  -   ",
         "",
         "Alimentação",
-        " $  175,00 "
+        " $  210,00 "
     ],
     [
-        "10:20",
+        "11:30",
         "-",
-        "10:40",
-        "Desert Rose Resort",
+        "11:50",
+        "New York New York",
         "Check In / Malas",
         "Hospedagem",
         " $  -   ",
@@ -167,95 +167,95 @@
         " $  180,00 "
     ],
     [
-        "10:40",
+        "11:50",
         "-",
-        "11:00",
+        "12:15",
         "New York New York",
-        "Check In / Malas",
-        "Hospedagem",
+        "Conhecer Cassino / Hotel",
+        "Turismo",
         " $  -   ",
         "",
         "Compras",
         " $  150,00 "
     ],
     [
-        "11:00",
+        "12:15",
         "-",
-        "12:00",
-        "New York New York",
-        "Conhecer Cassino / Hotel",
-        "Turismo",
-        " $  -   ",
-        "",
-        "Saídas",
-        " $  130,00 "
-    ],
-    [
-        "12:00",
-        "-",
-        "13:00",
+        "13:15",
         "Shake Shack",
         "Almoço",
         "Alimentação",
-        " $  20,00 ",
+        " $  25,00 ",
         "",
-        "Transporte Público",
-        " $  -   "
+        "Saídas",
+        " $  160,00 "
     ],
     [
-        "13:00",
+        "13:15",
         "-",
-        "15:00",
+        "15:15",
         "Strip",
         "Park MGM, Haus of Gaga, Coke",
         "Turismo",
         " $  15,00 ",
         "",
-        "Transporte Privado",
-        " $  123,50 "
+        "Transporte Público",
+        " $  -   "
     ],
     [
-        "15:00",
+        "15:15",
         "-",
-        "16:30",
+        "16:45",
         "Target + Marshalls",
         "Supermercado",
         "Alimentação",
         " $  50,00 ",
         "",
+        "Transporte Privado",
+        " $  118,50 "
+    ],
+    [
+        "16:45",
+        "-",
+        "19:00",
+        "New York New York",
+        "Descanso / Arrumar",
+        "Turismo",
+        " $  -   ",
+        "",
         "Ingresso/Show",
         " $  100,00 "
     ],
     [
-        "16:30",
+        "19:00",
         "-",
-        "16:45",
+        "19:10",
         "→",
         "Uber",
         "Transporte Privado",
-        " $  5,00 ",
+        " $  -   ",
         "",
         "Trabalho",
         " $  -   "
     ],
     [
-        "16:45",
+        "19:10",
         "-",
-        "17:00",
-        "Desert Rose Resort",
-        "Descanso",
-        "Transporte Privado",
-        " $  5,00 ",
+        "21:30",
+        "Katy Perry",
+        "Show",
+        "Ingresso/Show",
+        " $  -   ",
         "",
         "Ida/Volta",
         " $  -   "
     ],
     [
-        "10:40",
+        "21:30",
         "-",
-        "10:55",
+        "21:40",
         "→",
-        "Uber do Hotel",
+        "Uber para o Hotel",
         "Transporte Privado",
         " $  5,00 ",
         "",
@@ -263,36 +263,16 @@
         " $  -   "
     ],
     [
-        "10:55",
+        "21:40",
         "-",
-        "12:40",
-        "Saída - Strip",
-        "Sugestão: Nine Fine Irishmen",
-        "Saídas",
-        " $  -   ",
-        "",
-        "Total",
-        " R$  858,50 "
-    ],
-    [
-        "12:40",
-        "-",
-        "12:55",
-        "→",
-        "Uber para o Hotel",
-        "Transporte Privado",
-        " $  5,00 "
-    ],
-    [
-        "12:55",
-        "-",
-        "06:00",
+        "08:00",
         "Desert Rose Resort",
         "Descanso",
         "Hospedagem",
         " $  -   ",
         "",
-        "Ajustes"
+        "Total",
+        " R$  918,50 "
     ],
     [
         "TOTAL DO DIA",
@@ -301,10 +281,7 @@
         "",
         "",
         "",
-        " $  105,00 ",
-        "",
-        "Tipo",
-        " Valor"
+        " $  95,00 "
     ],
     [
         "",
@@ -315,8 +292,167 @@
         "",
         "",
         "",
+        "Ajustes"
+    ],
+    [
+        "domingo, 15 de outubro de 2023",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Tipo",
+        " Valor"
+    ],
+    [
+        "Horário",
+        "",
+        "",
+        "Programação",
+        "Detalhes",
+        "Tipo de Gasto",
+        " Valor",
+        "",
         "Ingresso/Show"
     ],
+    [
+        "08:00",
+        "-",
+        "09:00",
+        "New York New York",
+        "Arrumar / Café",
+        "Hospedagem",
+        " $  -   "
+    ],
+    [
+        "09:00",
+        "-",
+        "09:20",
+        "→",
+        "Uber",
+        "Transporte Privado",
+        " $  -   "
+    ],
+    [
+        "09:20",
+        "-",
+        "11:20",
+        "Walmart",
+        "Supermercado",
+        "Alimentação",
+        " $  30,00 ",
+        "",
+        "Total",
+        " R$  -   "
+    ],
+    [
+        "11:20",
+        "-",
+        "11:40",
+        "→",
+        "Uber",
+        "Transporte Privado",
+        " $  -   "
+    ],
+    [
+        "11:40",
+        "-",
+        "12:40",
+        "Almoço",
+        "Livre",
+        "Alimentação",
+        " $  -   ",
+        "",
+        "Hospedagem"
+    ],
+    [
+        "12:40",
+        "-",
+        "16:00",
+        "Strip",
+        "Bellagio, Fashion Mall",
+        "Turismo",
+        " $  -   ",
+        "",
+        "Desert Rose Resort - 5051 Duke Ellington Way"
+    ],
+    [
+        "16:00",
+        "-",
+        "16:20",
+        "→",
+        "Uber",
+        "Transporte Privado",
+        " $  -   "
+    ],
+    [
+        "16:20",
+        "-",
+        "19:30",
+        "Desert Rose Resort",
+        "Check In / Descanso",
+        "Hospedagem",
+        " $  -   "
+    ],
+    [
+        "19:30",
+        "-",
+        "19:50",
+        "→",
+        "Uber",
+        "Transporte Privado",
+        " $  5,00 ",
+        "",
+        "Resumo de Gastos"
+    ],
+    [
+        "19:50",
+        "-",
+        "22:00",
+        "Strip",
+        "Cassinos / Bares",
+        "Saídas",
+        " $  30,00 ",
+        "",
+        "Dia-A-Dia",
+        "$ 84/Dia"
+    ],
+    [
+        "22:00",
+        "-",
+        "22:20",
+        "→",
+        "Uber",
+        "Transporte Privado",
+        " $  5,00 ",
+        "",
+        "Gasto Médio",
+        "$ 194/Dia"
+    ],
+    [
+        "22:20",
+        "-",
+        "06:00",
+        "Desert Rose Resort",
+        "Descanso",
+        "Hospedagem",
+        " $  -   "
+    ],
+    [
+        "TOTAL DO DIA",
+        "",
+        "",
+        "",
+        "",
+        "",
+        " $  70,00 ",
+        "",
+        "Fuso",
+        "04:00"
+    ],
+    [],
     [
         "segunda-feira, 16 de outubro de 2023"
     ],
@@ -327,7 +463,9 @@
         "Programação",
         "Detalhes",
         "Tipo de Gasto",
-        " Valor"
+        " Valor",
+        "",
+        "Fuso BR -> LAS"
     ],
     [
         "06:00",
@@ -338,8 +476,8 @@
         "Trabalho",
         " $  -   ",
         "",
-        "Total",
-        " R$  -   "
+        "Horário BR",
+        "Horário LAS"
     ],
     [
         "10:00",
@@ -348,7 +486,10 @@
         "→",
         "A pé",
         "-",
-        " $  -   "
+        " $  -   ",
+        "",
+        "00:00",
+        "20:00"
     ],
     [
         "10:15",
@@ -357,9 +498,7 @@
         "New York New York",
         "Encontrar Paps e Mamis",
         "-",
-        " $  -   ",
-        "",
-        "Hospedagem"
+        " $  -   "
     ],
     [
         "10:30",
@@ -368,9 +507,7 @@
         "→",
         "Uber",
         "Transporte Privado",
-        " $  5,00 ",
-        "",
-        "Desert Rose Resort - 5051 Duke Ellington Way"
+        " $  5,00 "
     ],
     [
         "11:00",
@@ -379,7 +516,9 @@
         "Fergusons Downtown",
         "Turismo",
         "Turismo",
-        " $  -   "
+        " $  -   ",
+        "",
+        "Fuso LAS -> BR"
     ],
     [
         "12:00",
@@ -388,7 +527,10 @@
         "Fergusons Downtown",
         "Almoço",
         "Alimentação",
-        " $  20,00 "
+        " $  20,00 ",
+        "",
+        "Horário LAS",
+        "Horário BR"
     ],
     [
         "13:00",
@@ -399,7 +541,8 @@
         "Turismo",
         " $  15,00 ",
         "",
-        "Resumo de Gastos"
+        "00:00",
+        "04:00"
     ],
     [
         "16:00",
@@ -408,10 +551,7 @@
         "→",
         "Uber",
         "Transporte Privado",
-        " $  5,00 ",
-        "",
-        "Dia-A-Dia",
-        "$ 86/Dia"
+        " $  5,00 "
     ],
     [
         "16:30",
@@ -420,10 +560,7 @@
         "Desert Rose Resort",
         "Descanso / Arrumar",
         "Hospedagem",
-        " $  -   ",
-        "",
-        "Gasto Médio",
-        "$ 208/Dia"
+        " $  -   "
     ],
     [
         "19:00",
@@ -432,7 +569,9 @@
         "→",
         "Uber",
         "Transporte Privado",
-        " $  5,00 "
+        " $  5,00 ",
+        "",
+        "Trabalho"
     ],
     [
         "19:30",
@@ -443,8 +582,8 @@
         "Saídas",
         " $  -   ",
         "",
-        "Fuso",
-        "04:00"
+        "Horas - Até 20/10",
+        "20,00"
     ],
     [
         "22:30",
@@ -453,7 +592,10 @@
         "→",
         "Uber",
         "Transporte Privado",
-        " $  5,00 "
+        " $  5,00 ",
+        "",
+        "Horas - Pós 20/10",
+        "11,00"
     ],
     [
         "23:00",
@@ -471,9 +613,7 @@
         "",
         "",
         "",
-        " $  55,00 ",
-        "",
-        "Fuso BR -> LAS"
+        " $  55,00 "
     ],
     [
         "",
@@ -484,20 +624,10 @@
         "",
         "",
         "",
-        "Horário BR",
-        "Horário LAS"
+        "O ponto vira dia 20/out. Fazer 10h, compensar até sexta dia 20 e dever as 4h da semana seguinte"
     ],
     [
-        "terça-feira, 17 de outubro de 2023",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "00:00",
-        "20:00"
+        "terça-feira, 17 de outubro de 2023"
     ],
     [
         "Horário",
@@ -524,9 +654,7 @@
         "Grand Canyon",
         "Turismo",
         "Turismo",
-        " $  80,00 ",
-        "",
-        "Fuso LAS -> BR"
+        " $  80,00 "
     ],
     [
         "18:00",
@@ -535,10 +663,7 @@
         "Desert Rose Resort",
         "Descanso / Livre",
         "Hospedagem",
-        " $  -   ",
-        "",
-        "Horário LAS",
-        "Horário BR"
+        " $  -   "
     ],
     [
         "TOTAL DO DIA",
@@ -547,10 +672,7 @@
         "",
         "",
         "",
-        " $  145,00 ",
-        "",
-        "00:00",
-        "04:00"
+        " $  145,00 "
     ],
     [],
     [
@@ -563,9 +685,7 @@
         "Programação",
         "Detalhes",
         "Tipo de Gasto",
-        " Valor",
-        "",
-        "Trabalho"
+        " Valor"
     ],
     [
         "03:00",
@@ -574,10 +694,7 @@
         "Home Office",
         "Jornada 4h",
         "Trabalho",
-        " $  -   ",
-        "",
-        "Horas - Até 20/10",
-        "20,00"
+        " $  -   "
     ],
     [
         "07:00",
@@ -586,10 +703,7 @@
         "→",
         "Uber para o ponto de ônibus",
         "Transporte Privado",
-        " $  10,00 ",
-        "",
-        "Horas - Pós 20/10",
-        "11,00"
+        " $  10,00 "
     ],
     [
         "07:30",
@@ -616,9 +730,7 @@
         "→",
         "A pé",
         "-",
-        " $  -   ",
-        "",
-        "O ponto vira dia 20/out. Fazer 10h, compensar até sexta dia 20 e dever as 4h da semana seguinte"
+        " $  -   "
     ],
     [
         "13:15",
