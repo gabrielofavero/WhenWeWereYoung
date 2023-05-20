@@ -24,7 +24,7 @@ function _stopLoadingScreen() {
 // ======= ERROR MESSAGE =======
 function _displayErrorMessage(errorMessage = "") {
   const preloader = document.getElementById('preloader');
-  // check if preloader display is block
+
   if (preloader) {
     ERROR_MODE = true;
     disableScroll();
@@ -38,10 +38,17 @@ function _displayErrorMessage(errorMessage = "") {
     const errorDescription = document.createElement('p');
     errorDescription.innerHTML = ERROR_DESCRIPTION;
     errorText.appendChild(errorDescription);
+
+    const stackTrace = (new Error()).stack;
+    let errorLocation = stackTrace.split('\n')[2]; 
+    errorLocation = errorLocation.split("/")[errorLocation.split("/").length - 1]
+
+    const errorMessageWithLocation = errorMessage + " at " + errorLocation;
     const errorMessageElement = document.createElement('p');
-    errorMessageElement.innerText = errorMessage;
+    errorMessageElement.innerText = errorMessageWithLocation;
     errorMessageElement.className = 'error-message';
     errorText.appendChild(errorMessageElement);
+
     errorContainer.appendChild(errorText);
     preloader.innerHTML = '';
     preloader.style.background = 'rgba(0, 0, 0, 0.6)';
@@ -50,11 +57,11 @@ function _displayErrorMessage(errorMessage = "") {
     if (preloader.style.display != 'block') {
       preloader.style.display = 'block';
     }
-
   } else {
     _logger(WARN, 'No preloader element found');
   }
 }
+
 
 function _overrideError() {
   if (ERROR_MODE) {
