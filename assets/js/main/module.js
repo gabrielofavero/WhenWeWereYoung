@@ -15,7 +15,7 @@ const API_KEY = "AIzaSyBldMm_6AMNApXXcmB-s1cb7AE3PwP1fq4";
 const DATA_SHEET_ID = "1Img747RSF5lLz7eMh34qnIxvcMfWc4sUpdGkkyJRpuo";
 const DATA_SHEET_RANGE = "Programação!B2:K";
 const PLACES_SHEET_ID = "1aIDzTsPhvHJlWG-F3JI-8Cigwr0qUV-kNGjBMc6xlpA";
-const FORCE_BACKUP_LOAD = true;
+const FORCE_BACKUP_LOAD = false;
 
 // =======  Visibility =======
 const START_ON_DARK_MODE = false;
