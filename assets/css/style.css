@@ -1422,6 +1422,10 @@ iframe {
   overflow-wrap: break-word;
 }
 
+.error-text {
+  width: 100%;
+}
+
 .error-message {
   margin-top: 10px;
   font-size: 18px;
