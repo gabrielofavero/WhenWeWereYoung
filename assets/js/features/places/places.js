@@ -39,7 +39,7 @@ function _loadPlacesSelect() {
   let firstOption = document.createElement("option");
 
   firstOption.value = CITIES[0];
-  firstOption.text = CITIES_JSON[CITIES[0]];
+  firstOption.text = CITIES_INDEX_JSON[CITIES[0]];
   select.add(firstOption);
   firstOption.selected = true;
 
@@ -47,7 +47,7 @@ function _loadPlacesSelect() {
     for (let i = 1; i < CITIES.length; i++) {
       let newOption = document.createElement("option");
       newOption.value = CITIES[i];
-      newOption.text = CITIES_JSON[CITIES[i]];
+      newOption.text = CITIES_INDEX_JSON[CITIES[i]];
       select.add(newOption);
     };
   } else {

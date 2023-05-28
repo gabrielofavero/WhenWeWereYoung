@@ -6,7 +6,6 @@ const HEADER = TITLE
 const NUMBER_OF_PEOPLE = 1;
 const START_DATE = new Date("10/13/2023");
 const START_COUNTDOWN = new Date("10/13/2023 17:00");
-const CITIES = ["LV"];
 const END_DATE = new Date("10/25/2023");
 const CURRENCY = "$";
 

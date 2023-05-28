@@ -2,30 +2,30 @@ function _loadPlacesHTML() {
     let div = document.getElementById("passeiosBox");
     let text = "";
     let places = PLACES_JSON;
-  
+
     let sizeObj = {};
     let i = 0;
     let j = 0;
-  
+
     for (i; i < places.length; i++) {
-      if (!PLACES_SETTINGS_JSON["hidden"].includes(places[i]["title"])) {
-        sizeObj[j] = i;
-        j++;
-      }
+        if (!PLACES_SETTINGS_JSON["hidden"].includes(places[i]["title"])) {
+            sizeObj[j] = i;
+            j++;
+        }
     }
     let linktype = _getLinkType();
     PLACES_FILTERED_SIZE = Object.keys(sizeObj).length;
-  
+
     if (PLACES_FILTERED_SIZE >= 1) {
-      let internalIndex = sizeObj["0"];
-      let title = places[internalIndex]["displayTitle"] || places[internalIndex]["title"];
-      let code = places[internalIndex]["code"];
-      let href = title == "Mapa" ? MY_MAPS: "#";
-      let lt = title == "Mapa" ? linktype : "";
-      let onclick = title == "Mapa" ? "" : `onclick="openLightbox('${_getPlacesHref(code)}')"`;
-      let icon = places[internalIndex]["icon"];
-      let description = places[internalIndex]["description"];
-      text += `
+        let internalIndex = sizeObj["0"];
+        let title = places[internalIndex]["displayTitle"] || places[internalIndex]["title"];
+        let code = places[internalIndex]["code"];
+        let href = title == "Mapa" ? MY_MAPS : "#";
+        let lt = title == "Mapa" ? linktype : "";
+        let onclick = title == "Mapa" ? "" : `onclick="openLightbox('${_getPlacesHref(code)}')"`;
+        let icon = places[internalIndex]["icon"];
+        let description = places[internalIndex]["description"];
+        text += `
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100" id="b1">
         <a href="${href}" ${lt} ${onclick} title="Portfolio Details" id="ba1">
             <div class="icon-box iconbox-blue" id="ib1">
@@ -41,17 +41,17 @@ function _loadPlacesHTML() {
           </a>
         </div>`;
     };
-  
+
     if (PLACES_FILTERED_SIZE >= 2) {
-      let internalIndex = sizeObj["1"];
-      let title = places[internalIndex]["displayTitle"] || places[internalIndex]["title"];
-      let code = places[internalIndex]["code"];
-      let href = title == "Mapa" ? MY_MAPS: "#";
-      let lt = title == "Mapa" ? linktype : "";
-      let onclick = title == "Mapa" ? "" : `onclick="openLightbox('${_getPlacesHref(code)}')"`;
-      let icon = places[internalIndex]["icon"];
-      let description = places[internalIndex]["description"];
-      text += `
+        let internalIndex = sizeObj["1"];
+        let title = places[internalIndex]["displayTitle"] || places[internalIndex]["title"];
+        let code = places[internalIndex]["code"];
+        let href = title == "Mapa" ? MY_MAPS : "#";
+        let lt = title == "Mapa" ? linktype : "";
+        let onclick = title == "Mapa" ? "" : `onclick="openLightbox('${_getPlacesHref(code)}')"`;
+        let icon = places[internalIndex]["icon"];
+        let description = places[internalIndex]["description"];
+        text += `
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200" id="b2">
         <a href="${href}" ${lt} ${onclick} title="Portfolio Details" id="ba2">
             <div class="icon-box iconbox-orange" id="ib2">
@@ -67,17 +67,17 @@ function _loadPlacesHTML() {
           </a>
         </div>`;
     };
-  
+
     if (PLACES_FILTERED_SIZE >= 3) {
-      let internalIndex = sizeObj["2"];
-      let title = places[internalIndex]["displayTitle"] || places[internalIndex]["title"];
-      let code = places[internalIndex]["code"];
-      let href = title == "Mapa" ? MY_MAPS: "#";
-      let lt = title == "Mapa" ? linktype : "";
-      let onclick = title == "Mapa" ? "" : `onclick="openLightbox('${_getPlacesHref(code)}')"`;
-      let icon = places[internalIndex]["icon"];
-      let description = places[internalIndex]["description"];
-      text += `
+        let internalIndex = sizeObj["2"];
+        let title = places[internalIndex]["displayTitle"] || places[internalIndex]["title"];
+        let code = places[internalIndex]["code"];
+        let href = title == "Mapa" ? MY_MAPS : "#";
+        let lt = title == "Mapa" ? linktype : "";
+        let onclick = title == "Mapa" ? "" : `onclick="openLightbox('${_getPlacesHref(code)}')"`;
+        let icon = places[internalIndex]["icon"];
+        let description = places[internalIndex]["description"];
+        text += `
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300" id="b3">
         <a href="${href}" ${lt} ${onclick} title="Portfolio Details" id="ba3">
             <div class="icon-box iconbox-pink" id="ib3">
@@ -93,17 +93,17 @@ function _loadPlacesHTML() {
           </a>
         </div>`;
     };
-  
+
     if (PLACES_FILTERED_SIZE >= 4) {
-      let internalIndex = sizeObj["3"];
-      let title = places[internalIndex]["displayTitle"] || places[internalIndex]["title"];
-      let code = places[internalIndex]["code"];
-      let href = title == "Mapa" ? MY_MAPS: "#";
-      let lt = title == "Mapa" ? linktype : "";
-      let onclick = title == "Mapa" ? "" : `onclick="openLightbox('${_getPlacesHref(code)}')"`;
-      let icon = places[internalIndex]["icon"];
-      let description = places[internalIndex]["description"];
-      text += `
+        let internalIndex = sizeObj["3"];
+        let title = places[internalIndex]["displayTitle"] || places[internalIndex]["title"];
+        let code = places[internalIndex]["code"];
+        let href = title == "Mapa" ? MY_MAPS : "#";
+        let lt = title == "Mapa" ? linktype : "";
+        let onclick = title == "Mapa" ? "" : `onclick="openLightbox('${_getPlacesHref(code)}')"`;
+        let icon = places[internalIndex]["icon"];
+        let description = places[internalIndex]["description"];
+        text += `
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100" id="b4">
         <a href="${href}" ${lt} ${onclick} title="Portfolio Details" id="ba4">
             <div class="icon-box iconbox-yellow" id="ib4">
@@ -119,17 +119,17 @@ function _loadPlacesHTML() {
           </a>
         </div>`;
     };
-  
+
     if (PLACES_FILTERED_SIZE >= 5) {
-      let internalIndex = sizeObj["4"];
-      let title = places[internalIndex]["displayTitle"] || places[internalIndex]["title"];
-      let code = places[internalIndex]["code"];
-      let href = title == "Mapa" ? MY_MAPS: "#";
-      let lt = title == "Mapa" ? linktype : "";
-      let onclick = title == "Mapa" ? "" : `onclick="openLightbox('${_getPlacesHref(code)}')"`;
-      let icon = places[internalIndex]["icon"];
-      let description = places[internalIndex]["description"];
-      text += `
+        let internalIndex = sizeObj["4"];
+        let title = places[internalIndex]["displayTitle"] || places[internalIndex]["title"];
+        let code = places[internalIndex]["code"];
+        let href = title == "Mapa" ? MY_MAPS : "#";
+        let lt = title == "Mapa" ? linktype : "";
+        let onclick = title == "Mapa" ? "" : `onclick="openLightbox('${_getPlacesHref(code)}')"`;
+        let icon = places[internalIndex]["icon"];
+        let description = places[internalIndex]["description"];
+        text += `
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200" id="b5">
         <a href="${href}" ${lt} ${onclick} title="Portfolio Details" id="ba5">
             <div class="icon-box iconbox-red" id="ib5">
@@ -145,17 +145,17 @@ function _loadPlacesHTML() {
           </a>
         </div>`;
     };
-  
+
     if (PLACES_FILTERED_SIZE >= 6) {
-      let internalIndex = sizeObj["5"];
-      let title = places[internalIndex]["displayTitle"] || places[internalIndex]["title"];
-      let code = places[internalIndex]["code"];
-      let href = title == "Mapa" ? MY_MAPS: "#";
-      let lt = title == "Mapa" ? linktype : "";
-      let onclick = title == "Mapa" ? "" : `onclick="openLightbox('${_getPlacesHref(code)}')"`;
-      let icon = places[internalIndex]["icon"];
-      let description = places[internalIndex]["description"];
-      text += `
+        let internalIndex = sizeObj["5"];
+        let title = places[internalIndex]["displayTitle"] || places[internalIndex]["title"];
+        let code = places[internalIndex]["code"];
+        let href = title == "Mapa" ? MY_MAPS : "#";
+        let lt = title == "Mapa" ? linktype : "";
+        let onclick = title == "Mapa" ? "" : `onclick="openLightbox('${_getPlacesHref(code)}')"`;
+        let icon = places[internalIndex]["icon"];
+        let description = places[internalIndex]["description"];
+        text += `
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300" id="b6">
         <a href="${href}" ${lt} ${onclick} title="Portfolio Details" id="ba6">
             <div class="icon-box iconbox-teal" id="ib6">
@@ -171,17 +171,17 @@ function _loadPlacesHTML() {
           </a>
         </div>`;
     };
-  
+
     if (PLACES_FILTERED_SIZE >= 7) {
-      let internalIndex = sizeObj["6"];
-      let title = places[internalIndex]["displayTitle"] || places[internalIndex]["title"];
-      let code = places[internalIndex]["code"];
-      let href = title == "Mapa" ? MY_MAPS: "#";
-      let lt = title == "Mapa" ? linktype : "";
-      let onclick = title == "Mapa" ? "" : `onclick="openLightbox('${_getPlacesHref(code)}')"`;
-      let icon = places[internalIndex]["icon"];
-      let description = places[internalIndex]["description"];
-      text += `
+        let internalIndex = sizeObj["6"];
+        let title = places[internalIndex]["displayTitle"] || places[internalIndex]["title"];
+        let code = places[internalIndex]["code"];
+        let href = title == "Mapa" ? MY_MAPS : "#";
+        let lt = title == "Mapa" ? linktype : "";
+        let onclick = title == "Mapa" ? "" : `onclick="openLightbox('${_getPlacesHref(code)}')"`;
+        let icon = places[internalIndex]["icon"];
+        let description = places[internalIndex]["description"];
+        text += `
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300" id="b6">
         <a href="${href}" ${lt} ${onclick} title="Portfolio Details" id="ba7">
             <div class="icon-box iconbox-green" id="ib7">
@@ -197,42 +197,46 @@ function _loadPlacesHTML() {
           </a>
         </div>`;
     };
-  
+
     if (PLACES_FILTERED_SIZE > 7) {
-      _logger(WARN, "O número de parâmetros é maior que o permitido. Apenas os 6 primeiros serão exibidos.");
+        _logger(WARN, "O número de parâmetros é maior que o permitido. Apenas os 6 primeiros serão exibidos.");
     };
-  
+
     div.innerHTML = text;
     _adjustPlacesHTML();
-  }
+}
 
-  function _getLinkType() {
+function _getLinkType() {
     if (_isIOSDevice()) {
-      return "";
+        return "";
     } else {
-      return "target='_blank'";
+        return "target='_blank'";
     }
-  }
+}
 
-  function _getPlacesHref(code) {
+function _getPlacesHref(code) {
     if (code == "map") {
-      return MY_MAPS;
+        return MY_MAPS;
     } else return `places.html?city=${getPlacesSelectValue()}&type=${code}`;
-  }
+}
 
-  function _adjustPlacesHTML() {
+function _adjustPlacesHTML() {
     let heights = [];
     let maxHeight = 0;
-  
+
     for (let i = 1; i <= PLACES_FILTERED_SIZE; i++) {
-      let height = document.getElementById(`b${i}d`).offsetHeight;
-      if (height > maxHeight) {
-        maxHeight = height;
-      }
-      heights.push(height);
+        let height = document.getElementById(`b${i}d`).offsetHeight;
+        if (height > maxHeight) {
+            maxHeight = height;
+        }
+        heights.push(height);
     }
-  
+
     for (let i = 1; i <= PLACES_FILTERED_SIZE; i++) {
-      document.getElementById(`b${i}d`).style.height = `${maxHeight}px`;
+        document.getElementById(`b${i}d`).style.height = `${maxHeight}px`;
     }
-  }
+}
+
+function _getPlacesFilteredObject(city){
+    
+}

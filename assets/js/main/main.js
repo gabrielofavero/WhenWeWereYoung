@@ -16,6 +16,9 @@
     PLACES_CURRENCY_JSON = _getJSON("assets/json/module/places/Currency.json");
     PLACES_SETTINGS_JSON = _getJSON("assets/json/module/places/Settings.json");
 
+    PLACES_CITIES_JSON = _getJSON("assets/json/module/places/Cities.json");	
+    CITIES = Object.keys(PLACES_CITIES_JSON);
+
     _loadModule();
     if (!IS_PLACES_ACTIVE) {
       document.getElementById("servicesM").innerHTML = "";
@@ -32,7 +35,7 @@
     _adjustNightModeButtonPosition();
     
     // Cities
-    CITIES_JSON = _getJSON("assets/json/module/Cities Index.json");
+    CITIES_INDEX_JSON = _getJSON("assets/json/module/Cities Index.json");
     _loadPlacesSelect();
 
     // Places Ranges
