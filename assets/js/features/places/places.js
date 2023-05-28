@@ -2,10 +2,10 @@
 
 // ======= LOADERS =======
 function _loadPlaces() {
-  titleIndex = -1;
   let keys = Object.keys(SHEET_PLACES);
 
   for (let key of keys) {
+    let titleIndex = -1;
     let spk = SHEET_PLACES[key];
     for (let i = 0; i < spk.length; i++) {
       if (spk[i][0] != "" && spk[i][1] != undefined) {
@@ -55,7 +55,9 @@ function _loadPlacesSelect() {
   };
 
   select.addEventListener("change", function () {
-    _setPlacesURL(select.value);
+    _loadPlacesHTML(select.value);
+    _adjustPlacesHTML();
+    //_setPlacesURL(select.value);
   });
 }
 

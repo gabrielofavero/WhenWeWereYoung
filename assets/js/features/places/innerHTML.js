@@ -1,7 +1,7 @@
-function _loadPlacesHTML() {
+function _loadPlacesHTML(city) {
     let div = document.getElementById("passeiosBox");
     let text = "";
-    let places = PLACES_JSON;
+    let places = _getPlacesFilteredObject(city);
 
     let sizeObj = {};
     let i = 0;
@@ -238,5 +238,12 @@ function _adjustPlacesHTML() {
 }
 
 function _getPlacesFilteredObject(city){
-    
+    let result = [];
+    const headers = PLACES_CITIES_JSON[city]["headers"];
+    for (let placeObject of PLACES_JSON){
+        if (headers.includes(placeObject["title"])){
+            result.push(placeObject);
+        }
+    }
+    return result;
 }

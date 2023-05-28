@@ -47,5 +47,19 @@
         "subtitle": "",
         "icon": "bx bx-map-alt",
         "description": "Mapa interativo no Google Maps com vários pontos turísticos da cidade: Restaurantes, Lanches, Saídas e Turismo."
+    },
+    {
+        "title": "Alimentação",
+        "code": "food",
+        "subtitle": "",
+        "icon": "bx bx-dish",
+        "description": "Lugares diversos para alimentação ou bebidas: Restaurantes, fast-foods, cafeterias, bares, pubs, entre outros."
+    },
+    {
+        "title": "Turismo e Lojas",
+        "code": "tourismAndShopping",
+        "subtitle": "",
+        "icon": "bx bx-dish",
+        "description": "Pontos Turísticos e locais para fazer compras. Regiões, Museus, Shoppings, Supermercados, entre outros."
     }
 ]

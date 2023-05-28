@@ -10,5 +10,12 @@
             "Mapa"
         ],
         "myMaps": "https://www.google.com/maps/d/u/0/edit?mid=1M8ctdqWGonk_aWpcZ3coZgKuJoMJrGM&usp=sharing"
+    },
+    "LA": {
+        "headers": [
+            "Alimentação",
+            "Turismo e Lojas"
+        ],
+        "myMaps": ""
     }
 }

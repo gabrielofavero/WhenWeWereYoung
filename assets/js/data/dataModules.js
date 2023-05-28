@@ -58,7 +58,7 @@ function _loadModule() {
 
     // Places
     if (IS_PLACES_ACTIVE) {
-        _loadPlacesHTML();
+        _loadPlacesHTML(CITIES[0]);
     } else {
         document.getElementById("services").style.display = "none";
     }
