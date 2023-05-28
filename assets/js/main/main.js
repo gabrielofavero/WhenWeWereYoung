@@ -12,7 +12,10 @@
     $('body').css('overflow', 'hidden');
 
     // Places
-    PLACES_JSON = _getJSON("assets/json/module/Places.json");
+    PLACES_JSON = _getJSON("assets/json/module/places/Places.json");
+    PLACES_CURRENCY_JSON = _getJSON("assets/json/module/places/Currency.json");
+    PLACES_SETTINGS_JSON = _getJSON("assets/json/module/places/Settings.json");
+
     _loadModule();
     if (!IS_PLACES_ACTIVE) {
       document.getElementById("servicesM").innerHTML = "";

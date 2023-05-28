@@ -37,14 +37,14 @@ function _loadPlaces() {
 function _loadPlacesHTML() {
   let div = document.getElementById("passeiosBox");
   let text = "";
-  let places = PLACES_JSON["places"];
+  let places = PLACES_JSON;
 
   let sizeObj = {};
   let i = 0;
   let j = 0;
 
   for (i; i < places.length; i++) {
-    if (!PLACES_JSON["hidden"].includes(places[i]["title"])) {
+    if (!PLACES_SETTINGS_JSON["hidden"].includes(places[i]["title"])) {
       sizeObj[j] = i;
       j++;
     }
@@ -324,9 +324,9 @@ function _getPlacesHref(code) {
 
 function _getPlacesNoMap() {
   let result = [];
-  for (let i = 0; i < PLACES_JSON["places"].length; i++) {
-    if (PLACES_JSON["places"][i]["title"] != "Mapa") {
-      result.push(PLACES_JSON["places"][i]);
+  for (let i = 0; i < PLACES_JSON.length; i++) {
+    if (PLACES_JSON[i]["title"] != "Mapa") {
+      result.push(PLACES_JSON[i]);
     }
   }
   return result;
@@ -341,6 +341,8 @@ function getPlacesSelectValue() {
 function _exportPlacesVariables() {
   window.localStorage.setItem('P_RESULT', JSON.stringify(P_RESULT));
   window.localStorage.setItem('PLACES_JSON', JSON.stringify(PLACES_JSON));
+  window.localStorage.setItem('PLACES_CURRENCY_JSON', JSON.stringify(PLACES_CURRENCY_JSON));
+  window.localStorage.setItem('PLACES_SETTINGS_JSON', JSON.stringify(PLACES_SETTINGS_JSON));
   window.localStorage.setItem('CURRENCY', CURRENCY);
 }
 
@@ -383,8 +385,8 @@ function _translateHeader(header) {
   // $ -> Value  
   let result = _formatTxt(header);
 
-  for (let key in PLACES_JSON["translations"]) {
-    if (header == PLACES_JSON["translations"][key]) {
+  for (let key in PLACES_SETTINGS_JSON["translations"]) {
+    if (header == PLACES_SETTINGS_JSON["translations"][key]) {
       result = key;
       break;
     }
@@ -412,7 +414,7 @@ function _adjustPlacesHTML() {
 
 // ======= CHECKERS =======
 function _validatePlaces() {
-  let required = PLACES_JSON["required"];
+  let required = PLACES_SETTINGS_JSON["required"];
   for (let i = 0; i < P_RESULT.length; i++) {
     let titulo = P_RESULT[i].titulo;
     let keys = Object.keys(P_RESULT[i]);
@@ -433,6 +435,6 @@ function _validatePlaces() {
 }
 
 function _areRequiredParamsPresent(text) {
-  let required = PLACES_JSON["required"];
+  let required = PLACES_SETTINGS_JSON["required"];
   return required.indexOf(text) > -1;
 }

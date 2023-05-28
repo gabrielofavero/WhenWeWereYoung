@@ -27,6 +27,8 @@ function _loadP() {
 
   var P_RESULT = JSON.parse(window.localStorage.getItem('P_RESULT'));
   var PLACES_JSON = JSON.parse(window.localStorage.getItem('PLACES_JSON'));
+  var PLACES_CURRENCY_JSON = JSON.parse(window.localStorage.getItem('PLACES_CURRENCY_JSON'));
+  var PLACES_SETTINGS_JSON = JSON.parse(window.localStorage.getItem('PLACES_SETTINGS_JSON'));
   var HTML_PARAMS = _getParamsHTML();
   var CITY = HTML_PARAMS["city"];
   var TYPE = HTML_PARAMS["type"];
@@ -45,8 +47,8 @@ function _loadP() {
       document.getElementById("subTitleP").innerHTML = "<h5>" + TYPE_SUBTITLE + "</h5>";
     }
 
-    var MOEDA_OBJ = PLACES_JSON["currency"][CURRENCY] || PLACES_JSON["currency"]["R$"];
-    var NOTAS_OBJ = PLACES_JSON["scores"];
+    var MOEDA_OBJ = PLACES_CURRENCY_JSON[CURRENCY] || PLACES_CURRENCY_JSON["R$"];
+    var NOTAS_OBJ = PLACES_SETTINGS_JSON["scores"];
     var SINGLE_SCORES_OBJ = _getSingleScoresObj(PLACE, NOTAS_OBJ);
 
     let P_NOME = PLACE[NOME];
@@ -73,7 +75,7 @@ function _loadP() {
 
       // Required
       let nome = P_NOME[i];
-      let nota = _getScore(P_NOTA[i], PLACES_JSON, SINGLE_SCORES_OBJ, i);
+      let nota = _getScore(P_NOTA[i], PLACES_SETTINGS_JSON, SINGLE_SCORES_OBJ, i);
       let notaNumerica = _getNumericScore(nota);
       let cor = _getScoreColor(nota);
 
@@ -211,8 +213,8 @@ function _getScoreColor(score) {
   }
 }
 
-function _getScore(score, PLACES_JSON, SINGLE_SCORES_OBJ, i) {
-  let possibleValues = PLACES_JSON["scores"]["possibleValues"]
+function _getScore(score, PLACES_SETTINGS_JSON, SINGLE_SCORES_OBJ, i) {
+  let possibleValues = PLACES_SETTINGS_JSON["scores"]["possibleValues"]
   if (score && !possibleValues.includes(score)) {
     return score;
   } else if (score && possibleValues.includes(score)) {
@@ -323,7 +325,7 @@ function _getParamsHTML() {
 
 function _getFromPlacesJSON(code, PLACES_JSON, what) {
   if (code) {
-    let places = PLACES_JSON["places"];
+    let places = PLACES_JSON;
     for (let place of places) {
       if (place["code"] == code) {
         return place[what];
