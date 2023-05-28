@@ -27,7 +27,7 @@ function _loadSchedule() { // Carrega a programação completa
             </div>`;
         }
 
-        _logger(INFO, `Valor ${weekDay} (${shortDate}): ${CURRENCY} ${sum.toString().replace(".",",")}`);
+        // _logger(INFO, `Valor ${weekDay} (${shortDate}): ${CURRENCY} ${sum.toString().replace(".",",")}`);
         div.innerHTML = div.innerHTML + `
         <div class="col-lg-6" id="progDia">
         <h3 class="resume-title">${weekDay} (${shortDate})</h3>

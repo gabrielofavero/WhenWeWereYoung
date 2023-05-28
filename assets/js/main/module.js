@@ -47,18 +47,29 @@ const HEADER_IMG_LINK_DARK = "assets/img/logo.png";
 // ======= About =======
 const ABOUT_INTRO_TEXT = "";
 const GOOGLE_MAPS = "https://www.google.com/maps/d/u/0/embed?mid=1M8ctdqWGonk_aWpcZ3coZgKuJoMJrGM&ehbc=2E312F";
-const MY_MAPS = "https://www.google.com/maps/d/u/0/edit?mid=1M8ctdqWGonk_aWpcZ3coZgKuJoMJrGM&usp=sharing"
 const ABOUT_6 = "<strong>Local Show:</strong> Las Vegas Festival Grounds";
 const IS_ABOUT_6_ACTIVE = true;
 const MULTIPLE_FLIGHTS = true;
 const FLIGHTS_TO_DESTINATION = [0, 1, 2]; // Colocar ordem [0,1]
 const FLIGHTS_TO_HOME = [3, 4, 5]; // Colocar ordem [2,3]
+const MY_MAPS = "https://www.google.com/maps/d/u/0/edit?mid=1M8ctdqWGonk_aWpcZ3coZgKuJoMJrGM&usp=sharing"
 
 // ======= Places =======
 const IS_PLACES_ACTIVE = true;
 const SINGLE_SCORES = true;
 const AUTO_SORT_BY_SCORE = true;
 const P_DESCRIPTION = "";
+const TABLES = {
+    "LV": [
+        "Restaurantes",
+        "Lanches",
+        "Saídas",
+        "Turismo",
+        "Lojas",
+        "Lineup",
+        "Mapa"
+    ]
+}
 
 // ======= Gallery =======
 const GALLERY_ACTIVE = true;

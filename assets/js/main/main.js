@@ -11,70 +11,57 @@
     "use strict";
     $('body').css('overflow', 'hidden');
 
-    $.getJSON("assets/json/module/Places.json")
-      .then(function (data) {
-        PLACES_JSON = data;
-        _loadModule();
-        if (!IS_PLACES_ACTIVE) {
-          document.getElementById("servicesM").innerHTML = "";
-        }
-        return $.getJSON("assets/json/module/Gallery.json");
-      })
-      .then(function (data) {
-        GALLERY_JSON = data;
-        if (_checkGallery()) {
-          _loadGallery();
-        } else {
-          document.getElementById("portfolioM").innerHTML = "";
-          document.getElementById("portfolio").style.display = "none";
-        }
-        _adjustNightModeButtonPosition();
-      })
+    // Places
+    PLACES_JSON = _getJSON("assets/json/module/Places.json");
+    _loadModule();
+    if (!IS_PLACES_ACTIVE) {
+      document.getElementById("servicesM").innerHTML = "";
+    }
 
-    $.getJSON("assets/json/module/Cities.json", function (data) {
-      CITIES_JSON = data;
-      _loadPlacesSelect();
-    });
+    // Gallery
+    GALLERY_JSON = _getJSON("assets/json/module/Gallery.json");
+    if (_checkGallery()) {
+      _loadGallery();
+    } else {
+      document.getElementById("portfolioM").innerHTML = "";
+      document.getElementById("portfolio").style.display = "none";
+    }
+    _adjustNightModeButtonPosition();
+    
+    // Cities
+    CITIES_JSON = _getJSON("assets/json/module/Cities Index.json");
+    _loadPlacesSelect();
 
-    $.getJSON("assets/json/ranges/Places Ranges.json", function (data) {
-      PLACES_RANGES = data;
-      _loadPlacesRanges();
-    });
+    // Places Ranges
+    PLACES_RANGES = _getJSON("assets/json/ranges/Places Ranges.json");
+    _loadPlacesRanges();
 
-    $.getJSON("assets/json/ranges/Hyperlink Ranges.json", function (data) {
-      HYPERLINK_RANGES = data;
-      _loadHyperlinkRanges();
-    });
+    // Hyperlink Ranges
+    HYPERLINK_RANGES = _getJSON("assets/json/ranges/Hyperlink Ranges.json");
+    _loadHyperlinkRanges();
 
-    $.getJSON("assets/json/module/Emoji Text Index.json", function (data) {
-      EMOJI_JSON = data["emoji"];
-      TEXT_JSON = data["text"];
-    });
+    // Emoji Text Index
+    let emojiIndex = _getJSON("assets/json/module/Emoji Text Index.json");
+    EMOJI_JSON = emojiIndex["emoji"];
+    TEXT_JSON = emojiIndex["text"];
 
-    $.getJSON("assets/json/module/Transportation.json", function (data) {
-      TRANSPORTATION_JSON = data;
-    });
+    // Transportation
+    TRANSPORTATION_JSON = _getJSON("assets/json/module/Transportation.json");
 
-    $.getJSON("assets/json/module/Keypoints.json", function (data) {
-      KEYPOINTS_JSON = data;
-    });
+    // Keypoints
+    KEYPOINTS_JSON = _getJSON("assets/json/module/Keypoints.json");
 
-    $.getJSON("assets/json/module/Schedule.json", function (data) {
-      PROG_INDEX = data["index"];
-      PROG_TEXT_SUBSTITUTIONS = data["textSubstitutions"];
-      TIME_OF_DAY = data["timeOfDay"];
-      COST_DURING_TRIP_INDEX = data["gastoDuranteAViagem"];
-    });
+    // Schedule
+    let schedule = _getJSON("assets/json/module/Schedule.json");
+    PROG_INDEX = schedule["index"];
+    PROG_TEXT_SUBSTITUTIONS = schedule["textSubstitutions"];
+    TIME_OF_DAY = schedule["timeOfDay"];
+    COST_DURING_TRIP_INDEX = schedule["gastoDuranteAViagem"];
 
-    $.getJSON("assets/json/backups/SHEET_DATA.json", function (data) {
-      SHEET_DATA_BACKUP = data;
-    });
-    $.getJSON("assets/json/backups/P_DATA.json", function (data) {
-      P_DATA_BACKUP = data;
-    });
-    $.getJSON("assets/json/backups/HYPERLINK.json", function (data) {
-      HYPERLINK_BACKUP = data;
-    });
+    // Backup: SHEET_DATA, P_DATA, HYPERLINK
+    SHEET_DATA_BACKUP = _getJSON("assets/json/backups/SHEET_DATA.json");
+    P_DATA_BACKUP = _getJSON("assets/json/backups/P_DATA.json");
+    HYPERLINK_BACKUP = _getJSON("assets/json/backups/HYPERLINK.json");
 
     $('#myModal').on('shown.bs.modal', function () {
       $('#myInput').trigger('focus')
@@ -343,5 +330,17 @@ function _syncFunctions() {
   } catch (error) {
     _displayErrorMessage(error);
     throw error;
+  }
+}
+
+function _getJSON(path) {
+  const xhr = new XMLHttpRequest();
+  xhr.open('GET', path, false);
+  xhr.send();
+
+  if (xhr.status === 200) {
+    return JSON.parse(xhr.responseText);
+  } else {
+    _logger(ERROR, "Failed to load JSON file in path: '" + path, "'")
   }
 }
