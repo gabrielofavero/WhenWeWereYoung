@@ -13,7 +13,7 @@
         " ✈️",
         "",
         "Total",
-        "$ 2.138,45"
+        "$ 2.243,32"
     ],
     [
         "Horário",
@@ -65,8 +65,7 @@
         "-",
         " $  -   ",
         "",
-        "Ida/Volta",
-        " $  50,00 "
+        "Ida/Volta"
     ],
     [
         "22:50",
@@ -102,7 +101,7 @@
         "",
         "",
         "Total",
-        " R$  1.219,95 "
+        " R$  1.169,95 "
     ],
     [
         "sábado, 14 de outubro de 2023"
@@ -140,7 +139,7 @@
         " $  -   ",
         "",
         "Hospedagem",
-        " $  -   "
+        " $  123,12 "
     ],
     [
         "11:05",
@@ -152,7 +151,7 @@
         " $  -   ",
         "",
         "Alimentação",
-        " $  210,00 "
+        " $  225,00 "
     ],
     [
         "11:30",
@@ -176,7 +175,7 @@
         " $  -   ",
         "",
         "Compras",
-        " $  150,00 "
+        " $  170,00 "
     ],
     [
         "12:15",
@@ -200,7 +199,7 @@
         " $  15,00 ",
         "",
         "Transporte Público",
-        " $  -   "
+        " $  10,25 "
     ],
     [
         "15:15",
@@ -212,7 +211,7 @@
         " $  50,00 ",
         "",
         "Transporte Privado",
-        " $  118,50 "
+        " $  105,00 "
     ],
     [
         "16:45",
@@ -259,8 +258,7 @@
         "Transporte Privado",
         " $  5,00 ",
         "",
-        "Ajustes",
-        " $  -   "
+        "Ajustes"
     ],
     [
         "21:40",
@@ -272,7 +270,7 @@
         " $  -   ",
         "",
         "Total",
-        " R$  918,50 "
+        " R$  1.073,37 "
     ],
     [
         "TOTAL DO DIA",
@@ -417,7 +415,7 @@
         " $  30,00 ",
         "",
         "Dia-A-Dia",
-        "$ 84/Dia"
+        "$ 86/Dia"
     ],
     [
         "22:00",
@@ -429,7 +427,7 @@
         " $  5,00 ",
         "",
         "Gasto Médio",
-        "$ 194/Dia"
+        "$ 204/Dia"
     ],
     [
         "22:20",
@@ -583,7 +581,7 @@
         " $  -   ",
         "",
         "Horas - Até 20/10",
-        "20,00"
+        "27,33"
     ],
     [
         "22:30",
@@ -659,7 +657,7 @@
     [
         "18:00",
         "-",
-        "03:00",
+        "04:00",
         "Desert Rose Resort",
         "Descanso / Livre",
         "Hospedagem",
@@ -688,151 +686,151 @@
         " Valor"
     ],
     [
-        "03:00",
+        "04:00",
         "-",
-        "07:00",
-        "Home Office",
-        "Jornada 4h",
-        "Trabalho",
+        "04:30",
+        "Desert Rose Resort",
+        "Arrumar",
+        "Hospedagem",
         " $  -   "
     ],
     [
-        "07:00",
+        "04:30",
         "-",
-        "07:30",
+        "04:45",
         "→",
-        "Uber para o ponto de ônibus",
+        "Uber para o aeroporto",
         "Transporte Privado",
         " $  10,00 "
     ],
     [
-        "07:30",
+        "04:45",
         "-",
-        "08:00",
-        "Ponto de Ônibus",
+        "06:00",
+        "Aeroporto",
         "Aguardar",
         "-",
         " $  -   "
     ],
     [
-        "08:00",
+        "06:00",
         "-",
-        "12:55",
+        "07:14",
         "LAS → LA",
+        "Voo United - NLPT9L",
+        "Ida/Volta",
+        " $  -   "
+    ],
+    [
+        "07:14",
+        "-",
+        "07:45",
+        "Aeroporto",
+        "Desembarque",
+        "-",
+        " $  -   "
+    ],
+    [
+        "07:45",
+        "-",
+        "09:15",
+        "→",
         "Ônibus",
-        "Transporte Privado",
-        " $  -   "
+        "Transporte Público",
+        " $  1,25 "
     ],
     [
-        "12:55",
+        "09:15",
         "-",
-        "13:15",
+        "10:15",
+        "Pier de Santa Mônica",
+        "Turismo + Donuts",
+        "Alimentação",
+        " $  15,00 "
+    ],
+    [
+        "10:15",
+        "-",
+        "11:35",
         "→",
-        "A pé",
-        "-",
-        " $  -   "
+        "Metrô",
+        "Transporte Público",
+        " $  3,50 "
     ],
     [
-        "13:15",
+        "11:35",
         "-",
-        "13:45",
-        "Chinatown",
-        "Passeio Rápido",
-        "Turismo",
-        " $  -   "
+        "13:35",
+        "Little Tokyo + Chinatown",
+        "Turismo + Compras",
+        "Compras",
+        " $  20,00 "
     ],
     [
-        "13:45",
+        "13:35",
         "-",
-        "14:05",
-        "→",
-        "A pé",
-        "-",
-        " $  -   "
-    ],
-    [
-        "14:05",
-        "-",
-        "14:35",
-        "Little Tokyo",
-        "Passeio Rápido",
-        "Turismo",
-        " $  -   "
-    ],
-    [
-        "14:35",
-        "-",
-        "14:55",
-        "→",
-        "A pé",
-        "-",
-        " $  -   "
-    ],
-    [
-        "14:55",
-        "-",
-        "15:25",
+        "14:30",
         "Grand Central Market",
         "Almoço",
         "Alimentação",
         " $  30,00 "
     ],
     [
-        "15:25",
+        "14:30",
         "-",
-        "15:45",
+        "15:00",
         "→",
         "Metrô",
-        "Transporte Privado",
-        " $  1,75 "
+        "Transporte Público",
+        " $  -   "
     ],
     [
-        "15:45",
+        "15:00",
         "-",
-        "16:00",
-        "Banana Bungalow",
-        "Check In / Deixar Mochila",
+        "15:30",
+        "Samesun Hollywood",
+        "Check In / Deixar Malas",
         "Hospedagem",
+        " $  123,12 "
+    ],
+    [
+        "15:30",
+        "-",
+        "16:00",
+        "Calçada da Fama",
+        "Turismo",
+        "Turismo",
         " $  -   "
     ],
     [
         "16:00",
         "-",
-        "16:05",
-        "→",
-        "A pé",
-        "-",
-        " $  -   "
-    ],
-    [
-        "16:05",
-        "-",
-        "16:25",
+        "17:00",
         "Amoeba",
-        "Vinil",
+        "Vinis",
         "Compras",
-        " $  50,00 "
+        " $  100,00 "
     ],
     [
-        "16:25",
+        "17:00",
         "-",
-        "16:30",
+        "17:20",
         "→",
         "A pé",
         "-",
         " $  -   "
     ],
     [
-        "16:30",
+        "17:20",
         "-",
-        "18:25",
-        "Banana Bungalow",
-        "Descanso",
+        "18:10",
+        "Samesun Hollywood",
+        "Descanso / Arrumar",
         "Hospedagem",
         " $  -   "
     ],
     [
-        "18:25",
+        "18:10",
         "-",
         "18:30",
         "→",
@@ -861,8 +859,8 @@
     [
         "22:05",
         "-",
-        "02:00",
-        "Banana Bungalow",
+        "05:00",
+        "Samesun Hollywood",
         "Descanso",
         "Hospedagem",
         " $  -   "
@@ -874,7 +872,7 @@
         "",
         "",
         "",
-        " $  91,75 "
+        " $  302,87 "
     ],
     [],
     [
@@ -890,70 +888,100 @@
         " Valor"
     ],
     [
-        "02:00",
+        "05:00",
         "-",
-        "06:00",
-        "Home Office (Bibs)",
-        "Jornada 4h",
-        "Trabalho",
+        "05:10",
+        "Samesun Hollywood",
+        "Arrumar",
+        "Hospedagem",
         " $  -   "
     ],
     [
-        "06:00",
+        "05:10",
         "-",
-        "06:30",
+        "06:10",
         "→",
-        "Metrô",
-        "Transporte Privado",
-        " $  1,75 "
+        "Metrô + Ônibus",
+        "Transporte Público",
+        " $  4,00 "
     ],
     [
-        "06:30",
+        "06:10",
         "-",
-        "07:30",
-        "Flix Bus",
-        "Aguardar embarque",
-        "-",
+        "07:10",
+        "Griffith Park",
+        "Obervatório",
+        "Turismo",
         " $  -   "
     ],
     [
-        "07:30",
+        "07:10",
         "-",
-        "12:30",
-        "LAS → LA",
-        "Ônibus",
-        "Transporte Privado",
+        "08:10",
+        "→",
+        "Ônibus + Metrô",
+        "Transporte Público",
+        " $  0,50 "
+    ],
+    [
+        "08:10",
+        "-",
+        "08:15",
+        "Samesun Hollywood",
+        "Arrumar",
+        "Hospedagem",
         " $  -   "
     ],
     [
-        "12:30",
+        "08:15",
         "-",
-        "13:00",
+        "08:30",
+        "Samesun Hollywood",
+        "Check Out",
+        "Hospedagem",
+        " $  -   "
+    ],
+    [
+        "08:30",
+        "-",
+        "10:30",
+        "→",
+        "Metrô + Ônibus",
+        "Transporte Público",
+        " $  1,00 "
+    ],
+    [
+        "10:30",
+        "-",
+        "11:22",
+        "Aeroporto",
+        "Aguardar"
+    ],
+    [
+        "11:22",
+        "-",
+        "12:39",
+        "LA → LAS",
+        "Voo United - NLPT9L",
+        "Ida/Volta",
+        " $  -   "
+    ],
+    [
+        "12:39",
+        "-",
+        "12:54"
+    ],
+    [
+        "12:54",
+        "-",
+        "13:24",
         "→",
         "Uber",
         "Transporte Privado",
-        " $  10,00 "
-    ],
-    [
-        "13:00",
-        "-",
-        "16:00",
-        "Outlet",
-        "Las Vegas Premium South",
-        "Compras",
-        " $  50,00 "
-    ],
-    [
-        "16:00",
-        "-",
-        "16:30",
-        "→",
-        "Uber",
-        "Transporte Privado",
         " $  -   "
     ],
     [
-        "16:30",
+        "13:24",
         "-",
         "19:00",
         "Desert Rose Resort",
@@ -1004,7 +1032,7 @@
         "",
         "",
         "",
-        " $  121,75 "
+        " $  65,50 "
     ],
     [],
     [
